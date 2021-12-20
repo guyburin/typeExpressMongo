@@ -1,6 +1,6 @@
 import { Schema, model, connect } from "mongoose";
 
-const uri: string = "mongodb://localhost:27017/DB_learning";
+const uri: string = "mongodb://localhost:27017/home";
 
 connect(uri, (err: any) => {
   if (err) {
